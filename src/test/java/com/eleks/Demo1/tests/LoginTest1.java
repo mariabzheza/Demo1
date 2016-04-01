@@ -14,7 +14,7 @@ public class LoginTest1 {
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
-  @BeforeClass(alwaysRun = true)
+  @BeforeClass(alwaysRun = false)
   public void setUp() throws Exception {
     driver = new FirefoxDriver();
     baseUrl = "https://www.yahoo.com/";
@@ -35,7 +35,7 @@ public class LoginTest1 {
     driver.findElement(By.id("yui_3_18_0_4_1459429871230_1478")).click();
   }
 
-  @AfterClass(alwaysRun = true)
+  @AfterClass(alwaysRun = false)
   public void tearDown() throws Exception {
     driver.quit();
     String verificationErrorString = verificationErrors.toString();
