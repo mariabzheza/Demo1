@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestingBasics2" duration-ms="8460" started-at="2016-03-31T12:25:07Z" finished-at="2016-03-31T12:25:15Z">
+    <groups>
+    </groups>
+    <test name="SingleTestSuite2" duration-ms="8460" started-at="2016-03-31T12:25:07Z" finished-at="2016-03-31T12:25:15Z">
+      <class name="com.eleks.Demo1.tests.FirstTest1">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.eleks.Demo1.tests.FirstTest1@6bf256fa]" name="setUp" is-config="true" duration-ms="4444" started-at="2016-03-31T15:25:07Z" finished-at="2016-03-31T15:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.eleks.Demo1.tests.FirstTest1@6bf256fa]" name="testMethod" duration-ms="3629" started-at="2016-03-31T15:25:11Z" finished-at="2016-03-31T15:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eleks.Demo1.tests.FirstTest1@6bf256fa]" name="tearDown" is-config="true" duration-ms="387" started-at="2016-03-31T15:25:15Z" finished-at="2016-03-31T15:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eleks.Demo1.tests.FirstTest1 -->
+    </test> <!-- SingleTestSuite2 -->
+  </suite> <!-- TestingBasics2 -->
+  <suite name="TestingBasics1" duration-ms="0" started-at="2016-03-31T12:25:15Z" finished-at="2016-03-31T12:25:15Z">
+    <groups>
+    </groups>
+  </suite> <!-- TestingBasics1 -->
+  <suite name="TestingBasics1 (0)" duration-ms="5843" started-at="2016-03-31T12:25:01Z" finished-at="2016-03-31T12:25:07Z">
+    <groups>
+    </groups>
+    <test name="SingleTestSuite1" duration-ms="5843" started-at="2016-03-31T12:25:01Z" finished-at="2016-03-31T12:25:07Z">
+      <class name="com.eleks.Demo1.tests.FirstTest1">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.eleks.Demo1.tests.FirstTest1@17c68925]" name="setUp" is-config="true" duration-ms="1327" started-at="2016-03-31T15:25:01Z" finished-at="2016-03-31T15:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.eleks.Demo1.tests.FirstTest1@17c68925]" name="testMethod" duration-ms="3630" started-at="2016-03-31T15:25:02Z" finished-at="2016-03-31T15:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.eleks.Demo1.tests.FirstTest1@17c68925]" name="tearDown" is-config="true" duration-ms="876" started-at="2016-03-31T15:25:06Z" finished-at="2016-03-31T15:25:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.eleks.Demo1.tests.FirstTest1 -->
+    </test> <!-- SingleTestSuite1 -->
+  </suite> <!-- TestingBasics1 (0) -->
+</testng-results>

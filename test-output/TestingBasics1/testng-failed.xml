@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [TestingBasics1]">
+  <parameter name="browsername" value="chrome"/>
+  <test name="SingleTestSuite1">
+    <classes>
+      <class name="com.eleks.Demo1.tests.LoginTest3"/>
+    </classes>
+  </test> <!-- SingleTestSuite1 -->
+</suite> <!-- Failed suite [TestingBasics1] -->
