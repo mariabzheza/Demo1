@@ -18,18 +18,18 @@ public class WaitingClass<T extends Components<T>> {
 		return this;
 	}
 
-	public T toBeAwailable() {
+	public T toBeAvailable() {
 		int timePassed = 0;
 		while(timePassed <= DEFAULT_TIMEOUT) {
-			if (this.component.isAwailable()) {
+			if (this.component.isAvailable()) {
 				return this.component;
 			}
 			timePassed = timePassed + delay();
 		}
-		if(!this.component.isAwailable()) {
+		if(!this.component.isAvailable()) {
 			try {
 				throw new TimeoutException(this.component.getClass().getSimpleName() 
-						+ " component wasn't awailable after Def_Timeout " + DEFAULT_TIMEOUT + " !");
+						+ " component wasn't available after Def_Timeout " + DEFAULT_TIMEOUT + " !");
 			} catch (TimeoutException e) {
 				e.printStackTrace();
 			}

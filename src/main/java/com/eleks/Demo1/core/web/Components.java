@@ -10,10 +10,10 @@ public abstract class Components<T extends Components<T>> {
 		this.driver = driver;
 	}
 	
-	public abstract boolean isAwailable();
+	public abstract boolean isAvailable();
 	
-	public T waitUntilAwailable() {
-		return new WaitingClass<T>().forComponent((T)this).toBeAwailable();
+	public T waitUntilAvailable() {
+		return new WaitingClass<T>().forComponent((T)this).toBeAvailable();
 	}
 
 }

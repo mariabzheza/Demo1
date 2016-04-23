@@ -12,7 +12,7 @@ public abstract class WebPage<T extends WebPage<T>> extends Components<T> {
 	
 	public T loadAndWaitUntilAwailable(){
 		load();
-		return waitUntilAwailable();
+		return waitUntilAvailable();
 	}
 	
 }
